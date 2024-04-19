@@ -60,7 +60,7 @@
   align-items: center;
 }
 
-.header__logo-focus {
+.slogan__focus {
   font-family: "IBM Plex Mono", sans-serif;
   color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -89,7 +89,8 @@
   width: 491px; 
 }
 
-.rec-layout {
+.decorated-zone::before {
+  content: "rec";
   position: absolute;
   font-family: var(--font);
   color: var(--rec);
@@ -191,13 +192,7 @@
   margin: 20px 0 10px 0;
 }
 .section__subtitle {
-  color: var(--font-color);
-  font-family: var(--font);
-  font-size: 18px;
   font-weight: 400;
-  line-height: 23.4px;
-  background-color: var(--accent-color);
-  margin: 20px 0 10px 0;
 }
 
 .unic__pretitle-desc {
@@ -294,7 +289,9 @@
     padding-left: 20px;
   }
 
-  .header__motivation-text {
+  /* .header__motivation-text  */
+  .header__motivation 
+  .section__pretitle{
     width: 50%;
     height: 117px;
   }
@@ -329,7 +326,7 @@
 }
 
 @media (max-width: 767px) {
-  .header__logo-focus {
+  .slogan__focus {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     padding-left: 10px;
   }
@@ -338,7 +335,10 @@
     padding: 0;
   }
 
-  .header__motivation-text {
+  /* .header__motivation-text  */
+  .header__motivation
+   .section__pretitle
+  {
     height: 117px;
     max-inline-size: 364px;
     inline-size: 100%;
