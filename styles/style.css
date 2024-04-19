@@ -35,7 +35,7 @@
   border: 1px solid var(--accent-decor-for-button);
   box-sizing: border-box;
   cursor: pointer;
-  
+
 }
 
 .header__theme-menu-button:focus {
@@ -55,6 +55,7 @@
   display: flex;
   justify-content: center;
 }
+
 .header__logo {
   display: flex;
   align-items: center;
@@ -78,15 +79,14 @@
   min-height: 71px;
 }
 
-.header__motivation
- .section__pretitle {
+.header__motivation .section__pretitle {
   font-family: "IBM Plex Mono", sans-serif;
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--accent-color);
   color: var(--font-color);
   font-weight: 700;
-  width: 491px; 
+  width: 491px;
 }
 
 .decorated-zone::before {
@@ -145,7 +145,7 @@
   padding: 40px 20px 40px 20px;
 }
 
-.section:last-child{
+.section:last-child {
   padding: 40px 20px 60px 20px;
 }
 
@@ -157,6 +157,7 @@
 .link:hover {
   border-block-end: 1px solid var(--white-color);
 }
+
 .link:focus-visible {
   outline: 1px solid var(--white-color);
 }
@@ -191,6 +192,7 @@
   background-color: var(--accent-color);
   margin: 20px 0 10px 0;
 }
+
 .section__subtitle {
   font-weight: 400;
 }
@@ -207,7 +209,7 @@
   line-height: 23.4px;
 }
 
-.word-wrap{
+.word-wrap {
   width: 360px;
 }
 
@@ -290,8 +292,7 @@
   }
 
   /* .header__motivation-text  */
-  .header__motivation 
-  .section__pretitle{
+  .header__motivation .section__pretitle {
     width: 50%;
     height: 117px;
   }
@@ -336,9 +337,7 @@
   }
 
   /* .header__motivation-text  */
-  .header__motivation
-   .section__pretitle
-  {
+  .header__motivation .section__pretitle {
     height: 117px;
     max-inline-size: 364px;
     inline-size: 100%;
