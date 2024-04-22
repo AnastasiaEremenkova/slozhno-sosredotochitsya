@@ -124,9 +124,10 @@
   display: var(--rec-block);
 }
 
-.decorated {
+.decorated-up::before {
+  content: " ";
   display: var(--rec-block);
-  position: absolute;
+  position: fixed;
   width: 9px;
   height: 9px;
   border: 1px solid var(--rec);
@@ -338,22 +339,25 @@
     padding: 0 10px 0 10px;
   }
 
-  .decorated-up {
+  .decorated-zone::before{
     inset-inline-end: 10px;
     inset-block-start: 10px;
-  }
+  } 
 
   .decorated {
     inset-inline-end: 19px;
     inset-block-start: 19px;
   }
 
-  .rec-layout {
+  .decorated-up {
     inset-inline-end: 38px;
     inset-block-start: 10px;
   }
-
-  .decorated-down {
+  .decorated-up::before {
+    inset-inline-end: 20px;
+    inset-block-start: 19px;
+  }
+  .decorated-zone::after {
     inset-block-end: 10px;
     inset-inline-start: 10px;
   }
