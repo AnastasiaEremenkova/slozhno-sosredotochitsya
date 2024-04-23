@@ -127,13 +127,13 @@
 .decorated-up::before {
   content: " ";
   display: var(--rec-block);
-  position: fixed;
+  position: absolute;
   width: 9px;
   height: 9px;
   border: 1px solid var(--rec);
   border-radius: 50%;
-  inset-inline-end: 31px;
-  inset-block-start: 29px;
+  inset-inline-start: 41px;
+  inset-block-start: 8px;
   background-color: var(--rec);
   box-shadow: 0px 0px 4px 2px var(--rec);
 }
@@ -354,8 +354,8 @@
     inset-block-start: 10px;
   }
   .decorated-up::before {
-    inset-inline-end: 20px;
-    inset-block-start: 19px;
+    inset-inline-start: 41px;
+    inset-block-start: 9px;
   }
   .decorated-zone::after {
     inset-block-end: 10px;
